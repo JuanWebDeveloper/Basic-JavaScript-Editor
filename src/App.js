@@ -1,11 +1,7 @@
-import React from 'react';
+import { EditorInterface } from './components/EditorInterface';
 
 const App = () => {
-	return (
-		<div>
-			<h1>Basic JavaScript Editor</h1>
-		</div>
-	);
+	return <EditorInterface />;
 };
 
 export default App;
